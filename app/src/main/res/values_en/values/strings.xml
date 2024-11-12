@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DiarioDeHumor</string>
+    <string-array name="moods">
+        <item>Triste</item>
+        <item>Bravo</item>
+        <item>Decepcionado</item>
+        <item>Entediado</item>
+        <item>Indiferente</item>
+        <item>Ansioso</item>
+        <item>Feliz</item>
+        <item>Empolgado</item>
+    </string-array>
+</resources>

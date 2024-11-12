@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:layout_gravity="center_vertical"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Descrição -->
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="1"/>
+
+    <!-- Data -->
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+
+    <!-- "Mood" -->
+    <TextView
+        android:id="@+id/tvMood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mood"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Botão de excluir -->
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excluir"
+        android:layout_gravity="end"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

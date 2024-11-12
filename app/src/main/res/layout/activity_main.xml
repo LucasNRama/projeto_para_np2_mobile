@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f1f1f1">
+
+    <!-- Título da tela -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diário de Humor"
+        android:textSize="24sp"
+        android:textColor="#6200EE"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Botão para cadastrar nova nota -->
+    <Button
+        android:id="@+id/btnAddNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Nota"
+        android:textColor="#ffffff"
+        android:backgroundTint="#6200EE"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Botão para visualizar todas as notas -->
+    <Button
+        android:id="@+id/btnViewAllNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Todas as Notas"
+        android:textColor="#ffffff"
+        android:backgroundTint="#03DAC5"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- RecyclerView para exibir as notas -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
